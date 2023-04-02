@@ -1,0 +1,94 @@
+3. На GitHub во Repositories -> New.
+
+4. Искористени команди: 
+C:\..\ASUS>mkdir SI_2023_lab1_213046
+C:\..\ASUS>cd SI_2023_lab1_213046
+SI_2023_lab1_213046>git init
+
+5. git remote add origin https://github.com/JovanoskaJovana/SI_2023_lab1_213046.git
+
+6. SI_2023_lab1_213046>notepad README.md
+SI_2023_lab1_213046>git add README.md
+SI_2023_lab1_213046>git commit -m "Initial commit" 
+
+7. SI_2023_lab1_213046>notepad SILab1.java
+SI_2023_lab1_213046>git add SILab1.java
+SI_2023_lab1_213046>git commit -m "Add java class" 
+
+8. SI_2023_lab1_213046>git push origin master
+
+9. SI_2023_lab1_213046>git branch bug1
+SI_2023_lab1_213046>git branch bug2
+SI_2023_lab1_213046>git branch bug3
+
+10. SI_2023_lab1_213046>git checkout bug1
+
+11. SI_2023_lab1_213046>notepad SILab1.java
+SI_2023_lab1_213046>git add SILab1.java
+SI_2023_lab1_213046>git commit -m "Fix wrong loop for reading"
+
+12. SI_2023_lab1_213046>git checkout bug2
+
+13. SI_2023_lab1_213046>notepad SILab1.java
+SI_2023_lab1_213046>git add SILab1.java
+SI_2023_lab1_213046>git commit -m " Fix wrong condition in filterOddNumbers"
+
+14. SI_2023_lab1_213046>git checkout bug3
+
+15. SI_2023_lab1_213046>notepad SILab1.java
+SI_2023_lab1_213046>git add SILab1.java
+SI_2023_lab1_213046>git commit -m "Fix method sumEvenNumbers"
+
+16. SI_2023_lab1_213046>git push origin bug3
+SI_2023_lab1_213046>git push origin bug2
+SI_2023_lab1_213046>git push origin bug1
+
+17. SI_2023_lab1_213046>git checkout master
+
+18. SI_2023_lab1_213046>git merge bug1
+
+19. SI_2023_lab1_213046>git push origin master
+
+20. SI_2023_lab1_213046>git merge bug2
+
+21. SI_2023_lab1_213046>git push origin master
+
+22. SI_2023_lab1_213046>git checkout bug3
+
+23. SI_2023_lab1_213046>git rebase master
+
+24. SI_2023_lab1_213046>git checkout master
+
+25. SI_2023_lab1_213046>git merge bug3
+
+26. SI_2023_lab1_213046>git push origin master
+
+27. SI_2023_lab1_213046>notepad logs.txt
+SI_2023_lab1_213046>notepad 213046.txt
+SI_2023_lab1_213046>git add logs.txt
+SI_2023_lab1_213046>git add 213046.txt
+SI_2023_lab1_213046>git commit -m "Final commit"
+
+28. SI_2023_lab1_213046>git push origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
